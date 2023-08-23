@@ -1,0 +1,31 @@
+.gri{
+    background: #D9D9D9;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.opa1 img{
+  opacity:.4;
+
+}
+
+.gri1{
+    background-color: black;
+    color: white;
+}
+
+
+@media (min-width:1440px) {
+    .opa{
+        width: 100%;
+    }
+    .inve{
+        width: 25%;
+    }
+    .gri, .gri1{
+        width: 90%;
+    }
+    .gri, .gri1 p{
+        font-size: 20px;
+    }
+}

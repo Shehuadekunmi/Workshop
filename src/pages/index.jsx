@@ -1,0 +1,5 @@
+export {default as Home} from './Home'
+export {default as Teams} from './Teams'
+export {default as Contact} from './Contact'
+export {default as About} from './About'
+export {default as Methodology} from './Methodology'

@@ -1,0 +1,143 @@
+.imag{
+    width: 100%;
+}
+.imag img{
+    width: 90%;
+}
+
+.var{
+    height: 20px;
+    margin-top: 5px;
+}
+
+.text{
+    overflow: hidden;
+    width: 100%;
+}
+
+
+@media (min-width:768px) {
+    .ban{
+        background: #292D32;
+        width: 90%;
+        margin: 0 auto;
+        height: 400px;
+    }
+    .imag{
+        width: 50%;
+        margin: auto;
+    }
+
+    .imag img{
+        width: 80%;
+    }
+    .text{
+        width: 50%;
+        color: white;
+        margin-top: 80px;
+    }
+    .text p, h1{
+        width: 100%;
+        padding-left: 30px;
+        font-family: Posterama Text;
+font-weight: 400;
+
+    }
+
+    .cod{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .cod p{
+        width: 80%;
+        font-family: Posterama Text;
+        font-weight: 600;
+        padding-left: 70px;
+    }
+    .cod1{
+        margin-left: 350px;
+        margin-top: -30px;
+    }
+    .cap img{
+        margin-top: 150px;
+    }
+    .job p, h2{
+        font-family: Posterama Text;
+font-size: 20px;
+font-weight: 400;
+width: 70%;
+margin: 0 auto;
+    }
+
+    .var{
+        height: 20px;
+    }
+
+    .fact p{
+        width: 150px;
+    }
+    .fact h1{
+       margin-left: -25px;
+    }
+    .port p{
+        width: 500px;
+        margin: 0 auto;
+        font-family: Posterama Text;
+font-size: 20px;
+font-weight: 400;
+    }
+
+    .port button{
+        width: 200px;
+        margin: 20px 0;
+    }
+}
+
+@media (min-width:1440px) {
+    .text p, h1{
+        font-size: 24px;
+        width: 480px;
+    }
+
+    .cod p{
+        font-size: 27px;
+        width: 700px;
+        margin: 0 auto;
+    }
+    .cod1, .cod2{
+       position: relative;
+       left: 150px;
+    }
+   
+    .our{
+        width: 500px;
+        margin-top: 170px;
+    }
+    .our p, h1{
+        font-size: 24px;
+        font-family: Posterama Text;
+        font-weight: 400;
+    }
+
+    .fact{
+        width: 100%;
+    }
+    .work{
+        width: 20%;
+    }
+    .work p{
+        font-size: 24px;
+        width: 40%;
+    }
+    .port h1{
+        margin: 0 auto;
+        width: 600px;
+    }
+    .port p{
+        font-size: 24px;
+        width: 800px;
+       text-align: justify;
+       padding-left: 50px;
+    }
+
+}

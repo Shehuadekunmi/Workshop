@@ -1,0 +1,21 @@
+.banner{
+    background: #F5F5F5;
+}
+
+.meth{
+    background-image: url('../assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.review{
+   background-color: white;
+}
+.hiring{
+    background: #292D32;
+color: white;
+padding: 5px;
+width: 100%px;
+height: 231px;
+border-radius: 8px;
+}

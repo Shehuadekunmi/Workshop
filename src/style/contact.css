@@ -1,0 +1,33 @@
+.info, .for{
+box-shadow: 5px 5px 5px 5px salmon;
+}
+.info{
+    height: 360px;
+}
+.for button, input{
+    width: 95%;
+}
+
+@media (min-width:768px) {
+    .for, .info{
+        width: 40%;
+    }
+    .for input, textarea, button{
+        width: 95%;
+    }
+}
+
+@media (min-width:1440px) {
+    .for, .info p{
+        font-size: 23px;
+    }
+    .for input, button{
+        height: 40px;
+    }
+
+    .con p, h3{
+        font-size: 22px;
+        width: 500px;
+        margin: 0 auto;
+    }
+}
