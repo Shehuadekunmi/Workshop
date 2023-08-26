@@ -15,13 +15,13 @@ const Footer = () => {
             </div>
 
             <div className="d-flex flex-wrap justify-content-center fs- gap-md-3  my-3">
-                <div className='d-flex flex-wrap gap-lg-3  gap-2'> <Link to='/' className='text-decoration-none text-success' > <p>Home</p> </Link>
-                    <Link to='/contact' className='text-decoration-none text-success' ><p>Contact</p></Link>
-                    <Link to='/teams' className='text-decoration-none text-success' >  <p>Teams</p></Link>
+                <div className='d-flex flex-wrap gap-lg-3  gap-2'> <Link to='/' className='text-decoration-none text-white' > <p>Home</p> </Link>
+                    <Link to='/contact' className='text-decoration-none text-white' ><p>Contact</p></Link>
+                    <Link to='/teams' className='text-decoration-none text-white' >  <p>Teams</p></Link>
                 </div>
                 <div className='d-flex gap-2 gap-lg-3 mx-2'>
-                    <Link to='/about' className='text-decoration-none text-success' >  <p>About Us</p></Link>
-                    <Link to='/methodology' className='text-decoration-none text-success' >  <p>Methodology</p> </Link>
+                    <Link to='/about' className='text-decoration-none text-white' >  <p>About Us</p></Link>
+                    <Link to='/methodology' className='text-decoration-none text-white' >  <p>Methodology</p> </Link>
                 </div>
             </div>
         </div>
