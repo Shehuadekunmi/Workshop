@@ -19,3 +19,54 @@ width: 100%px;
 height: 231px;
 border-radius: 8px;
 }
+
+.mob{
+    display: none;
+}
+
+@media (min-width:768px) {
+    .car{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .mob{
+        display: block;
+    }
+    .des{
+        display: none;
+    }
+    .hiring{
+        width: 50%;
+    }
+}
+
+
+@media (min-width:1440px) {
+    .bann h1{
+        width: 642px;
+height: 56px;
+font-family: Roboto;
+margin: 0 auto;
+font-weight: 600;
+    }
+
+    .bann p{
+        font-family: Roboto;
+font-size: 24px;
+font-weight: 500;
+    }
+    .review p{
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+        width: 1166px;
+    }
+
+    .circle p{
+        font-family: Roboto;
+font-size: 24px;
+font-weight: 500;
+
+    }
+    
+}

@@ -10,12 +10,12 @@ const Methodology = () => {
       <Header/>
 
       <section className='banner'>
-        <div className="text-center text-white meth px-2 py-5">
+        <div className="text-center text-white meth px-2 py-5 bann">
           <h1>The Method of  WorkshopApp </h1>
           <p>Below is a step by step representation of the hiring process of WorkshopApp</p>
         </div>
 
-        <div className='review px-2 py-5'>
+        <div className='review px-2 py-5 px-md-5'>
           <h3 className="fw-bold pt-5">Overview</h3>
           <p>We are a virtual studio that only aims at hiring only the best qualified people, hence to achieve this process, 
             candidates are made to go through a series of task with already set requirements, this is done in order to test

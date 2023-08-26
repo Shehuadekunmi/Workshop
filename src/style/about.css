@@ -21,7 +21,7 @@
         background: #292D32;
         width: 90%;
         margin: 0 auto;
-        height: 400px;
+        height: 300px;
     }
     .imag{
         width: 50%;
@@ -94,6 +94,9 @@ font-weight: 400;
 }
 
 @media (min-width:1440px) {
+    .ban{
+        height: 400px;
+    }
     .text p, h1{
         font-size: 24px;
         width: 480px;

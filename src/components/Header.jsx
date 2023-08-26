@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/logo2.png'
 import Dropdown from 'react-bootstrap/Dropdown';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -13,10 +14,12 @@ const Header = () => {
         Don
       </Dropdown.Toggle>
 
-      <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+      <Dropdown.Menu >
+       <Link to='/' className='text-decoration-none'><Dropdown.Item href="#/action-1">Home</Dropdown.Item> </Link> 
+       <Link to='/contact' className='text-decoration-none'> <Dropdown.Item href="#/action-2">Contact</Dropdown.Item> </Link> 
+       <Link to='/about' className='text-decoration-none'> <Dropdown.Item href="#/action-3">About Us</Dropdown.Item> </Link> 
+       <Link to='/teams' className='text-decoration-none'> <Dropdown.Item href="#/action-2">Teams</Dropdown.Item> </Link> 
+       <Link to='/methodology' className='text-decoration-none'> <Dropdown.Item href="#/action-3">Methodology</Dropdown.Item> </Link> 
       </Dropdown.Menu>
     </Dropdown>
                 </div>

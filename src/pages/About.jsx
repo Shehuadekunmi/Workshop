@@ -17,7 +17,7 @@ const About = () => {
     <div>
       <Header />
     
-      <div className="ban d-flex flex-wrap   my-5">
+      <div className="ban d-md-flex flex-wra   my-5">
         <div className="text px-2">
           <h1>Who We Are</h1>
           <p>We help you build and grow your startup. With our 300+ projects we have the experience you need to among the 10% successful start ups</p>

@@ -4,8 +4,13 @@ box-shadow: 5px 5px 5px 5px salmon;
 .info{
     height: 360px;
 }
-.for button, input{
+.for button, input, textarea{
     width: 95%;
+    border-top: 1px solid greenyellow;
+    border-bottom: 1px solid rebeccapurple;
+}
+.for{
+    width: 98%;
 }
 
 @media (min-width:768px) {
